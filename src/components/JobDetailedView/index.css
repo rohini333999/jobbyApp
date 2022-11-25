@@ -1,0 +1,79 @@
+.job-detailed-view-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 25px 40px 25px;
+}
+.detailed-view-container {
+  background-color: #272727;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 25px 30px 25px;
+}
+.description {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: white;
+}
+.skills {
+  font-size: 22px;
+  font-family: 'roboto';
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.similar-jobs-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.visit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.anchor {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.life-at-company-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .life-at-company-container {
+    flex-direction: row;
+  }
+}
+.description {
+  color: white;
+  line-height: normal;
+  font-family: 'roboto';
+  width: 100%;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .life-at-company-description {
+    width: 60%;
+    margin: 0px;
+  }
+}
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.life-at-company-image {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

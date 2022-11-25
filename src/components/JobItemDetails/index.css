@@ -1,0 +1,128 @@
+.jobs-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.sidebar-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .sidebar-container {
+    width: 30%;
+  }
+  .jobs-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.search-container-small {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 767px) {
+  .search-container-small {
+    display: none;
+  }
+}
+.search-container-large {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .search-container-large {
+    display: none;
+  }
+}
+
+.search-button-container {
+  background-color: #272727;
+  width: 10%;
+  color: white;
+  padding: 5px;
+}
+.search-button {
+  color: white;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+.search {
+  background-color: transparent;
+  border: none;
+  padding: 13px;
+  color: white;
+  font-size: 18px;
+  font-family: roboto;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 35%;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  height: 2px solid white;
+  width: 60%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+.filter-container {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.sidebar-heading {
+  color: white;
+  font-size: 22px;
+  font-family: 'roboto';
+}
+.label {
+  color: white;
+  font-size: 18px;
+  font-family: 'roboto';
+  margin-left: 5px;
+}
+.list-item {
+  margin-bottom: 15px;
+}
+.job-details-large-container {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .job-details-large-container {
+    width: 70%;
+  }
+}
+.all-job-details-container {
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

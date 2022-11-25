@@ -1,0 +1,17 @@
+.skill-list {
+  list-style-type: none;
+  width: 25%;
+  margin: 20px;
+}
+.each-skill-container {
+  display: flex;
+  flex-direction: row;
+}
+.skill-logo {
+  height: 43px;
+  width: 43px;
+}
+.skill-name {
+  color: white;
+  margin-left: 5px;
+}

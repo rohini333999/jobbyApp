@@ -1,0 +1,30 @@
+.list {
+  list-style-type: none;
+  width: 90%;
+}
+.similar-job-card {
+  background-color: #272727;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .list {
+    width: 30%;
+  }
+}
+.job-description {
+  color: white;
+  font-family: 'roboto';
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.description-heading {
+  color: white;
+  font-family: 'roboto';
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 22px;
+}
